@@ -8,7 +8,7 @@ The **Shade** tool allows you to easily shade your skin without manually changin
 
 ## Math
 The **Shade** tool calculates the brightness using simple **addition/subtraction** from the original color by the **Force** value. Here's an example:<br>
-Let's say an user left clicked on a pixel with the color `#F69901` using the **Shade** tool with the **Force** value set to 5, here's how to calculate the resulting color:<br>
+Let's say a user left clicked on a pixel with the color `#F69901` using the **Shade** tool with the **Force** value set to 5, here's how to calculate the resulting color:<br>
 
 - First thing to do is to convert the hexadecimal`#F69901` to a decimal value. the result would be `246, 153, 1`
 - Next, the **Force** value has to be subtracted from the decimal values, so the result would be:<br>
