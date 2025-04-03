@@ -1,0 +1,23 @@
+[project]
+name = "ncrswiki"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "NeedCoolerShoes Team", email = "dev@needcoolershoes.com"}
+]
+license = {text = "CC-BY-SA 4.0"}
+readme = "README.md"
+requires-python = ">=3.13,<4"
+dependencies = [
+    "mkdocs (>=1.6.1,<2.0.0)",
+    "mkdocs-material[imaging] (>=9.6.11,<10.0.0)",
+    "mkdocs-git-revision-date-localized-plugin (>=1.4.5,<2.0.0)",
+    "mkdocs-git-committers-plugin-2 (>=2.5.0,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
