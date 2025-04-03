@@ -28,6 +28,7 @@ theme:
     - content.code.copy
     - content.action.edit
     - content.action.view
+edit_uri: edit/main/docs/
 repo_url: https://github.com/needcoolershoes/wiki
 repo_name: needcoolershoes
 plugins:
