@@ -25,6 +25,9 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
 repo_url: https://github.com/needcoolershoes/wiki
 repo_name: needcoolershoes
 plugins:
