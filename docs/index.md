@@ -1,10 +1,14 @@
-# Welcome to NeedCoolerShoes Wiki
+<center>
+#Welcome to the NeedCoolerShoes Wiki!
+</center>
 
-## Project layout
-
-    mkdocs.yml    # The configuration file
-    docs/
-        index.md  # The documentation homepage
-        assets/   # Assets directory
-        ...       # Other markdown pages
-    overrides/    # Theme overrides
+- History
+- Skin Editor
+    - Tools
+        - [Brush](./editor/tools/Brush/)
+        - [Eraser](./editor/tools/Eraser/)
+        - [Paint Bucket](./editor/tools/Paint%20Bucket/)
+        - [Shade](./editor/tools/Shade/)
+        - [Sculpt](./editor/tools/Sculpt/)
+- Banner Editor
+- Gallery
