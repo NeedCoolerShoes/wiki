@@ -25,7 +25,7 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
-repo_url: https://github.com/needcoolershoes/docs
+repo_url: https://github.com/needcoolershoes/wiki
 repo_name: needcoolershoes
 plugins:
   - git-revision-date-localized:
@@ -33,7 +33,7 @@ plugins:
       fallback_to_build_date: true
   - git-committers:
       enabled: true
-      repository: needcoolershoes/docs
+      repository: needcoolershoes/wiki
       branch: main
   - privacy
   - social
