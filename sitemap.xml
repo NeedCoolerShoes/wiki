@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://wiki.needcoolershoes.com/</loc>
-         <lastmod>2025-04-17</lastmod>
-    </url>
-    <url>
-         <loc>https://wiki.needcoolershoes.com/test/</loc>
-         <lastmod>2025-04-17</lastmod>
-    </url>
-    <url>
          <loc>https://wiki.needcoolershoes.com/editor/tools/Brush/</loc>
          <lastmod>2025-04-17</lastmod>
     </url>
@@ -26,6 +18,14 @@
     </url>
     <url>
          <loc>https://wiki.needcoolershoes.com/editor/tools/Shade/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.needcoolershoes.com/index/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.needcoolershoes.com/index/test/</loc>
          <lastmod>2025-04-17</lastmod>
     </url>
 </urlset>
