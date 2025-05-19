@@ -1,0 +1,40 @@
+:root  > * {
+    --md-default-fg-color: #ddde;
+    --md-default-fg-color--light: #fffe;
+    --md-primary-fg-color: #ff8629;
+    --md-accent-fg-color: #55b2ff;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    display: block;
+    image-rendering: crisp-edges;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.md-header__button.md-logo {
+    margin: .2rem;
+    padding: .3rem;
+}
+
+.md-typeset h1 {
+    font-weight: 700;
+}
+
+.md-typeset h2 {
+    color: var(--md-default-fg-color--light);
+    font-weight: 400;
+}
+
+.md-typeset p {
+    font-weight: 100;
+}
+
+.md-typeset li {
+    font-weight: 100;
+}
+
+.md-typeset strong {
+    color: var(--md-default-fg-color--light);
+    font-weight: 400;
+}
