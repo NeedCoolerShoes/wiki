@@ -30,6 +30,7 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.footer
+    - navigation.indexes
     - content.code.copy
     - content.action.edit
     - content.action.view
