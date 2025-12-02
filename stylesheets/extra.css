@@ -1,13 +1,23 @@
 :root  > * {
-    --md-default-fg-color: #ddde;
-    --md-default-fg-color--light: #fffe;
-    --md-primary-fg-color: #ff8629;
-    --md-accent-fg-color: #55b2ff;
+    --ncs-dark-100: #f2f2f2;
+    --ncs-dark-200: #9ca3af;
+    --ncs-dark-300: #494c4e;
+    --ncs-dark-400: #3d4042;
+    --ncs-dark-500: #313436;
+    --ncs-dark-600: #232428;
+    --ncs-dark-700: #1a1a1c;
+    --ncs-dark-800: #131315;
+    --ncs-orange: #ff8629;
+    --ncs-blue: #55b2ff;
+
+    --md-primary-fg-color: var(--ncs-orange);
+    --md-accent-fg-color: var(--ncs-blue);
+    --md-default-fg-color: var(--ncs-dark-200);
+    --md-default-fg-color--light: var(--ncs-dark-100);
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
     display: block;
-    image-rendering: crisp-edges;
     width: 2.2rem;
     height: 2.2rem;
 }
@@ -37,4 +47,32 @@
 .md-typeset strong {
     color: var(--md-default-fg-color--light);
     font-weight: 400;
+}
+
+.md-typeset h1 {
+    margin-bottom: 0.5rem;
+}
+
+button.button {
+    --text-color: var(--ncs-dark-100);
+    cursor: pointer;
+    color: var(--text-color);
+    padding: 0.5rem 0.25rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: rgb(35, 36, 40) rgb(35, 36, 40) rgb(30, 35, 38);
+    background-image: linear-gradient(to top, rgb(36, 39, 42), rgb(49, 52, 54));
+    box-shadow: rgb(61, 64, 66) 0px 0px 0px 1px inset, rgb(25, 26, 28) 0px 1px 3px, rgb(31, 34, 38) 0px 4px, rgba(0, 0, 0, 0.2) 0px 4px 3px;
+}
+
+button:hover.button {
+    --text-color: var(--ncs-dark-200);
+    box-shadow: #505254 0px 0px 0px 1px inset, #191a1c 0px 0px 3px, #272a2d 0px 4px, rgba(0, 0, 0, 0.2) 0px 4px 3px;
+}
+
+button:active.button {
+    --text-color: var(--ncs-blue);
+    background-image: linear-gradient(to top, rgb(49, 52, 54), rgb(36, 39, 42));
+    margin-top: 2px;
+    margin-bottom: -2px;
 }
