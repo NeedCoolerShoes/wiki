@@ -1,3 +1,7 @@
+<button class="button tool-button" title="Shade [S]
+Makes pixels lighter/darker or adjusts their color based on the palette.
+Use the left mouse button to darken, and the right mouse button to lighten."><div style="mask-image: url(&quot;../../../assets/icons/tools/shading.svg&quot;); mask-size:contain; mask-repeat:no-repeat; mask-position:center; background-color: var(--text-color); width:44px;height:28px;"></div></button>
+<div style="width:0;height:0;margin:0;margin-bottom:-20px"></div>
 ## Description
 The **Shade** tool allows you to easily shade your skin without manually changing colors. You can change the **Force** value to do more coarse/subtle adjustments.
 ## How to use
