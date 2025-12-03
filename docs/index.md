@@ -5,7 +5,7 @@
 - About
     - [History](about/history.md)
 - Skin Editor
-    - Tools
+    - [Tools](skin_editor/tools/)
         - [Brush](skin_editor/tools/brush.md)
         - [Eraser](skin_editor/tools/eraser.md)
         - [Paint Bucket](skin_editor/tools/paint_bucket.md)
