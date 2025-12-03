@@ -9,7 +9,7 @@ This guide assumes that the reader is familiar with basic HTML. We will be worki
 First, browse to the skin you want to embed. Visit its page, and then click the **Sharing & Attribution** button.
 
 <figure>
-  <img src="https://res.cloudinary.com/moxvallix/image/upload/v1720160386/NeedCoolerShoes/guides/working-with-embeds-1_jd0qdc.png" alt="Skin Page">
+  <img src="https://res.cloudinary.com/needcoolershoes/image/upload/v1764720322/EmbedGuide2025_ksrgkp.png" alt="Skin Page">
   <figcaption>The open Sharing & Attribution menu</figcaption>
 </figure>
 
